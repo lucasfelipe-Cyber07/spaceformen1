@@ -3,8 +3,12 @@
     width: 100%
 }
 
+.principal{
+    background-color: #ffffff;
+    padding: 30px;
+}
 
-h1 {
+.titulo-centralizado{
     text-align: center;
 }
 
@@ -15,5 +19,31 @@ h1 {
 
 em strong{
     color: red;
+}
+
+.beneficios{
+    background-color:#cccccc ;
+}
+
+.itens{
+font-style: italic;
+
+
+}
+
+
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+.imagembeneficios{
+width: 50%;
+
+
 }
 
