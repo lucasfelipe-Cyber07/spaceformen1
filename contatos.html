@@ -30,16 +30,19 @@
 <main>
   <form >
     <label for="nomesobrenome">Nome e Sobrenome:</label>
-    <input type="text" id="nomesobrenome" class="inputs-padrao">
-     <label for="email">E-mail:</label>
-    <input type="email" id="email" class="inputs-padrao">
+    <input type="text" id="nomesobrenome" class="inputs-padrao" required>
+    
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" class="inputs-padrao" required placeholder="seu.email@exemplo.com">
+    
     <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone" class="inputs-padrao">
+    <input type="tel" id="tel" class="inputs-padrao" required placeholder="(55) 9999-9999">
 
     <label for="mensagem">Mensagem:</label>
     <textarea name="" id="mensagem" cols="67" rows="10"></textarea>
-     <div>
-    <p>Como prefere o nosso contato</p>
+     <fieldset>
+
+    <legend>Como prefere o nosso contato?</legend>
     
     <label radio for="radio-email"> <input radio type="radio" name="contato" id="radio-email">e-mail</label>
      
@@ -49,12 +52,26 @@
 
       <label for="radio-whatsapp"> <input radio type="radio" name="contato" id="radio-whatsapp">WhatsApp</label>
      
-     </div>
+     </fieldset>
+       
+     <fieldset>
+     <legend>Qual horário prefere ser atendido?</legend>
+     <select name="" id="">
+        <option value="">Manhã</option>
+        <option value="">Tarde</option>
+        <option value="">Noite</option>
+               
 
-     <label for="chekbox" name="" id="chekbox"><input type="checkbox" id="chekbox">
+
+      </select>
+      </fieldset>
+     
+     
+      <label for="chekbox" class="chekbox"><input type="checkbox" id="chekbox">
 Gostaria de receber novidades por e-mail?</label>
      
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar" class="enviar">
+    
 
   </form>
 </main>

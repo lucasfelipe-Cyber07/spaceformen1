@@ -46,7 +46,7 @@ form{
 
 }
 
-form label{
+form label, form legend{
     display: block;
     margin: 0 0 10px;
     font-size: 20px;
@@ -59,6 +59,27 @@ form label{
     padding: 10px 20px;
     width: 50%;
 }
+
+.checkbox{
+  margin:  20px  0;
+}
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0 ; 
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
 footer{
     text-align: center;
     background-image: url(./img/bg.jpg);
