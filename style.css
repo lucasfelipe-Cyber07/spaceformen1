@@ -84,6 +84,51 @@ main{
     
 }
 
+.mapa{
+    padding: 3em 0;
+}
+
+
+.mapa p{
+ margin: 0 0 2em;
+ text-align: center;
+}
+
+
+.lista-beneficios{
+   width: 40%;
+   display: inline-block;
+   vertical-align: top;
+
+
+}
+
+
+.beneficios{
+    padding: 3em 0;
+}
+
+
+.conteudobeneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.itens{
+    line-height: 1.5;
+
+}
+
+.itens:before{
+ content: "★";
+
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+
 .imagembeneficios{
     width: 60%;
    
@@ -91,7 +136,10 @@ main{
   
 }
 
-
+.video{
+    width:560px;
+    margin: 2em auto;
+}
 
 .beneficios{
     width: 940px;
